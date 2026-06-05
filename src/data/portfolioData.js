@@ -8,18 +8,18 @@ export const portfolioData = {
     { text: "📍 India", highlight: false, isLocation: true }
   ],
   stats: [
-    { value: "12+", label: "PROJECTS" },
-    { value: "3", label: "YRS EXP" },
+    { value: "3", label: "PROJECTS" },
+    // { },
     { value: "500+", label: "COMMITS" }
   ],
   currentProject: {
     title: "CURRENTLY BUILDING",
     name: "MNNIT Athletics Club dedicated website",
-    link: "github.com/yourname/taskq"
+    link: "github.com/thefearlesscoder/mnnit_athletics_club"
   },
   socialLinks: {
     github: "https://github.com/thefearlesscoder",
-    linkedin: "https://linkedin.com",
+    linkedin: "https://www.linkedin.com/in/vivekkumar2004/",
     email: "mailto:vivekkumarhari03@gmail.com",
     resume: "/off_campus.pdf"
   },
@@ -105,29 +105,29 @@ export const portfolioData = {
     }
   ],
   experience: [
-    {
-      id: "acme",
-      company: "Acme Corp",
-      location: "New Delhi",
-      role: "SDE-II · Backend & Platform",
-      period: "Jul 2023 → Present",
-      dotColor: "#4a9"
-    },
+    // {
+    //   id: "acme",
+    //   company: "Acme Corp",
+    //   location: "New Delhi",
+    //   role: "SDE-II · Backend & Platform",
+    //   period: "Jul 2023 → Present",
+    //   dotColor: "#4a9"
+    // },
     {
       id: "startupxyz",
-      company: "StartupXYZ",
-      location: "Remote",
-      role: "SDE-I · Full-stack",
-      period: "Jun 2022 → Jun 2023",
+      company: "Open to Work",
+      location: "On-site | Remote",
+      role: "SDE / SWE / Full Stack Developer",
+      period: "",
       dotColor: "#2a5"
     },
     {
       id: "edu",
-      company: "IIT / NIT",
+      company: "MNNIT Allahabad",
       location: "B.Tech CS",
       role: "Computer Science & Engineering",
-      period: "2018 → 2022",
-      dotColor: "#444"
+      period: "2023 → 2027(expected)",
+      dotColor: "#2a5"
     }
   ],
   contact: {

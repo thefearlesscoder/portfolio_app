@@ -17,7 +17,7 @@ function App() {
           <div className="dot yellow"></div>
           <div className="dot green"></div>
         </div>
-        <span className="url">thefearlesscoder</span>
+        <span className="url">Email: vivekkumarhari03@gmail.com</span>
       </div>
       <div className="site">
         <Header resumeLink={portfolioData.socialLinks.resume} />

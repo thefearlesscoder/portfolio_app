@@ -30,13 +30,13 @@ const Hero = ({ data }) => {
           ))}
         </div>
         <div className="stat" style={{ padding: '10px 12px' }}>
-          <div style={{ fontSize: '9px', color: 'var(--color-accent-primary)', marginBottom: '4px', letterSpacing: '0.1em' }}>
+          <div style={{ fontSize: '13px', color: 'var(--color-accent-primary)', marginBottom: '4px', letterSpacing: '0.1em' }}>
             {data.currentProject.title}
           </div>
-          <div style={{ fontSize: '11px', color: 'var(--color-text-primary)' }}>
+          <div style={{ fontSize: '16px', color: 'var(--color-text-primary)' }}>
             {data.currentProject.name}
           </div>
-          <div style={{ fontSize: '9px', color: '#555', marginTop: '2px' }}>
+          <div style={{ fontSize: '13px', color: '#555', marginTop: '2px' }}>
             {data.currentProject.link}
           </div>
         </div>
