@@ -25,81 +25,73 @@ export const portfolioData = {
   },
   projects: [
     {
-      id: "taskq",
-      name: "TaskQ",
-      status: "LIVE",
-      link: "https://github.com/thefearlesscoder/taskq",
-      description: "Distributed task queue with Redis-backed persistence, retry logic, dead-letter queues. Handles 10k req/s.",
+      id: "modelsmith",
+      name: "Model Smith",
+      status: null, //LIVE
+      link: "https://github.com/Anubhav17ambudhi/ModelSmith",
+      description: "End-to-end AutoML system that generates neural architectures from CSV datasets and natural-language constraints",
       tags: [
-        { name: "Go", highlight: true },
-        { name: "Redis", highlight: true },
-        { name: "Docker", highlight: false },
-        { name: "k8s", highlight: false }
+        { name: "FastAPI", highlight: true },
+        { name: "Optuna", highlight: true },
+        { name: "Pytorch", highlight: true },
+        { name: "MongoDB", highlight: true }
       ]
     },
     {
-      id: "codecollab",
-      name: "CodeCollab",
-      status: "LIVE",
-      link: "https://github.com/thefearlesscoder/codecollab",
-      description: "Real-time collaborative code editor with CRDT-based conflict resolution and syntax highlighting.",
+      id: "eventhub",
+      name: "Event Hub",
+      status: null, // LIVE
+      link: "https://github.com/thefearlesscoder/EventHub",
+      description: "A web application to help users find ideal meetup venues for an Event based on location and preferences.",
       tags: [
         { name: "React", highlight: true },
         { name: "WebSockets", highlight: true },
-        { name: "Node.js", highlight: false }
+        { name: "Express", highlight: true},
+        { name: "OAuth2", highlight: true },
+        { name: "Leaflet", highlight: true}
       ]
     },
     {
-      id: "minidb",
-      name: "MiniDB",
+      id: "techbridge",
+      name: "Tech Bridge",
       status: null,
-      link: "https://github.com/thefearlesscoder/minidb",
-      description: "Toy relational DB with B-tree indexing, basic SQL parser, and WAL for crash recovery. Educational project.",
+      link: "https://github.com/thefearlesscoder/Tech-Bridge",
+      description: "A platform for tech enthusiasts to showcase their projects, find collaborators, and raise funds.",
       tags: [
-        { name: "C++", highlight: true },
-        { name: "B-tree", highlight: false },
-        { name: "WAL", highlight: false }
+        { name: "Stripe", highlight: true },
+        { name: "Clerk", highlight: true },
+        { name: "Node", highlight: false },
+        { name: "React", highlight: false},
+        { name: "Express", highlight: false}
       ]
     },
-    {
-      id: "infra-monitor",
-      name: "Infra Monitor",
-      status: null,
-      link: "https://github.com/thefearlesscoder/infra-monitor",
-      description: "Self-hosted metrics dashboard with Prometheus + Grafana, alerting via Slack webhooks.",
-      tags: [
-        { name: "Prometheus", highlight: true },
-        { name: "Grafana", highlight: false },
-        { name: "Python", highlight: false }
-      ]
-    }
+    
   ],
   skills: [
     {
       category: "LANGUAGES",
       items: [
-        { name: "C++", level: 50 },
-        { name: "Java", level: 80 },
-        { name: "Python", level: 70 },
+        { name: "C++", level: 80 },
+        { name: "Java", level: 50 },
+        { name: "Python", level: 50 },
         { name: "C", level: 55 }
       ]
     },
     {
       category: "SYSTEMS & CLOUD",
       items: [
-        { name: "AWS / GCP", level: 75 },
-        { name: "Kubernetes", level: 65 },
-        { name: "Kafka", level: 60 },
-        { name: "PostgreSQL", level: 80 },
-        { name: "Redis", level: 40}
+        { name: "AWS / GCP", level: 50 },
+        { name: "Redis", level: 30 },
+        { name: "MongoDB", level: 70 },
+        { name: "Git", level: 80}
       ]
     },
     {
       category: "FRONTEND",
       items: [
         { name: "React", level: 75 },
-        { name: "TypeScript", level: 70 },
-        { name: "Next.js", level: 60 },
+        { name: "TypeScript", level: 50 },
+        { name: "Next.js", level: 50 },
         { name: "REST / gRPC", level: 80 }
       ]
     }
