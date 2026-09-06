@@ -6,6 +6,7 @@ const Layout = () => {
 <div>Layout</div>
 
     <Button />
+    <Button/>
 
     </div>
     
