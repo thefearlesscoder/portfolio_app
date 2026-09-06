@@ -8,6 +8,8 @@ const Layout = () => {
     <Button />
     <Button/>
 
+    <Button /> // new button
+
     </div>
     
   )
